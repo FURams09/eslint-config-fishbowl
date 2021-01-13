@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-fishbowl",
+  "version": "1.0.0",
+  "description": "sharable lint for fishbowl game project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build",
+    "version": "node build && yarn version",
+    "publish": "yarn publish && npm publish"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Greg Padin",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "eslint": "^7.17.0",
+    "js-yaml": "^4.0.0"
+  }
+}
